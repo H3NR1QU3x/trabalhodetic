@@ -1,6 +1,8 @@
+
 body 
 {
   background-color: black;
+  color: white;
 }
 
 h1 
@@ -53,4 +55,79 @@ a
   color: greenyellow;
   font-family: verdana;
   font-size: 15px;
+}
+
+table 
+{
+  border: 1px solid white;
+  border-style:groove;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+td
+{
+  border:1px solid white;
+  border-style:groove;
+  color: white;
+  font-family: verdana;
+}
+
+tr
+{
+  border:1px solid white;
+  border-style:groove;
+  color: white;
+  font-family: verdana;
+}
+
+th
+{
+  
+  border:1px solid white;
+  border-style:groove;
+  color: white;
+  font-family: verdana;
+}
+
+ul
+{
+  color: white;
+  font-family: verdana;
+}
+
+ol
+{
+  color: white;
+  font-family: verdana;
+}
+
+caption
+{
+  font-family: verdana;
+  color: white;
+}
+
+line
+{
+  color: white;
+}
+
+dl
+{
+  font-family: verdana;
+  color: white;
+}
+
+dd
+{
+  font-family: verdana;
+  color: white;
+}
+
+dt
+{
+  font-family: verdana;
+  color: white;
 }
