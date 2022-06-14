@@ -10,37 +10,47 @@ h1
   font-family: verdana;
   color: white;
   text-align: center;
+  background-color: black;
 }
 
 h2
 {
   font-family: verdana;
   color: white;
-  
+  text-align: center;
+  background-color: black;
 }
 
 h3
 {
   font-family: verdana;
   color: white;
+  text-align: center;
+  background-color: black;
 }
 
 h4
 {
   font-family: verdana;
   color: white;
+  text-align: center;
+  background-color: black;
 }
 
 h5
 {
   font-family: verdana;
   color: white;
+  text-align: center;
+  background-color: black;
 }
 
 h6
 {
   font-family: verdana;
   color: white;
+  background-color: black;
+  text-align: center;
 }
 
 p 
@@ -48,13 +58,16 @@ p
   color: white;
   font-family: verdana;
   font-size: 15px;
+  text-align: center;
+  background-color: black;
 }
 
 a
 {
-  color: greenyellow;
+  color: red;
   font-family: verdana;
   font-size: 15px;
+  text-align: center;
 }
 
 table 
@@ -62,45 +75,29 @@ table
   border: 1px solid white;
   border-style:groove;
   color: white;
-  width: 100%;
   text-align: center;
 }
 
-td
-{
-  border:1px solid white;
-  border-style:groove;
-  color: white;
-  font-family: verdana;
-}
-
-tr
-{
-  border:1px solid white;
-  border-style:groove;
-  color: white;
-  font-family: verdana;
-}
-
-th
-{
-  
-  border:1px solid white;
-  border-style:groove;
-  color: white;
-  font-family: verdana;
+li{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 ul
 {
   color: white;
   font-family: verdana;
+  margin-left: 47%;
+  margin-right: 70%;
 }
 
 ol
 {
   color: white;
   font-family: verdana;
+  margin-left: 47%;
+  margin-right: 70%;
 }
 
 caption
@@ -118,16 +115,81 @@ dl
 {
   font-family: verdana;
   color: white;
+  text-align: center;
 }
 
 dd
 {
   font-family: verdana;
   color: white;
+  text-align: center;
 }
 
 dt
 {
   font-family: verdana;
   color: white;
+  text-align: center;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body,html{
+height: 100%;
+margin: 0;
+
+}
+
+.bg{
+  background-image: url(myheart_4K.gif);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+i{
+  text-align: center;
+
+}
+
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+  margin:0px auto;
+  border-color: #ffffff;
+}
+
+.tg td{
+  border-style:solid;
+  border-color: #ffffff;
+  border-width:0px;
+  font-family:verdana;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 20px;
+  word-break:normal;
+}
+
+.tg th{
+  border-style:solid;
+  border-width:0px;
+  font-family:verdana;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 20px;
+  word-break:normal;
+  border-color: #ffffff;
+}
+
+.tg .tg-0usf{
+  background-color:#000000;
+  border-color:#ffffff;
+  color:#ffffff;
+  text-align:center;
+  vertical-align:top}
